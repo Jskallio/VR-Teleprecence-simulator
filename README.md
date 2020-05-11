@@ -22,16 +22,16 @@ The Wii board uses bluetooth for communication. For keeping a pairing with the b
 If connecting without the tool, use normal methods of connecting a bluetooth device. Pairing button on the board is a red button behind the battery cover on the bottom of the board.  
 To connect the board with the tool, close unity and make sure that the board is not paired with the computer. Open the WiiPair tool and press the red button on the board. The tool will do the pairing and from now on you can connect to the paired computer by pressing the button on the front of the board.
 
-For the test runs:
-Run the scene from Scenes/FinalScenes/StartMenu
-Select Subject ID and wheter you want to start with joystick run or not and press "Start test"
+For the test runs:  
+Run the scene from Scenes/FinalScenes/StartMenu  
+Select Subject ID and wheter you want to start with joystick run or not and press "Start test"  
 
-First you will have to calibrate the Balance Board.
-Press space to start the calibration.
-When subject is standing still on board press space to calibrate the middle position
-Next press space when the subject is leaning forward to calibrate the forward position
-Last press space when the subject is leaning backward to calibrate tha backward position
-After the calibration press space to start the first run.
+First you will have to calibrate the Balance Board.  
+Press space to start the calibration.  
+When subject is standing still on board press space to calibrate the middle position.  
+Next press space when the subject is leaning forward to calibrate the forward position.  
+Last press space when the subject is leaning backward to calibrate tha backward position.  
+After the calibration press space to start the first run.  
 
 Between the runs you will need to calibrate the middle position again but that is much faster than this.
 
@@ -40,20 +40,18 @@ After all the runs is done the game will close and you will have to open it agai
 The tracking files are saved into: 
 C:\Users\*USER*\AppData\LocalLow\DefaultCompany\Balance Board\
 
-Fixing the tracking files:
-We found a bug that messed up the control switches in the tracking files.
-To fix this we made small script.
-Open scene: Scenes/FinalScenes/FixFiles
-From System-object set the "From path" and "To path" on the "Tracker Fixer"-script
-  From path is place where the tracking files are
-  To path is place where fixed files will be saved into.
-From same object change the "Path" and "Output" of the "Output Data"-script
-  Path should be the same as "To Path" of the fixer-script
+Fixing the tracking files:  
+We found a bug that messed up the control switches in the tracking files. To fix this we made small script.  
+Open scene: Scenes/FinalScenes/FixFiles  
+From System-object set the "From path" and "To path" on the "Tracker Fixer"-script.
+  "From path" is place where the tracking files are.  
+  "To path" is place where fixed files will be saved into.  
+From same object change the "Path" and "Output" of the "Output Data"-script  
+  Path should be the same as "To Path" of the fixer-script  .
   Output is csv file where you want to save the data from all the track files.
 
-Viewing the tracker files:
-Open scene: Scenes/CampusVisualizer
-On Canvas-object change the "Path" in "Visalizer_File_Controller"-script into the path that you gave as "To Path" in previous part.
-After that you can start the scene.
+Viewing the tracker files:  
+Open scene: Scenes/CampusVisualizer  
+On Canvas-object change the "Path" in "Visalizer_File_Controller"-script into the path that you gave as "To Path" in previous part.  
+After that you can start the scene.  
 You can select track files to be viewed from "Menu" button in top right (Aspect ratio should be 16:9 or close to that)
-
