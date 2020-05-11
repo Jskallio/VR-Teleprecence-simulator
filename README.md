@@ -19,7 +19,9 @@ Install the WiiBuddy asset from the asset store.
 
 How to connect a Wii board to computer:
 The Wii board uses bluetooth for communication. For keeping a pairing with the board, you have to connect it via a special tool (download link can be found from the developers website: https://www.richlynch.com/2009/11/18/permanently-pair-wiimotewii-balance-board/), otherwise the board has to be paired after every restart.
+
 If connecting without the tool, use normal methods of connecting a bluetooth device. Pairing button on the board is a red button behind the battery cover on the bottom of the board.
+
 To connect the board with the tool, close unity and make sure that the board is not paired with the computer.
 Open the WiiPair tool and press the red button on the board. The tool will do the pairing and from now on you can connect to the paired computer by pressing the button on the front of the board.
 
