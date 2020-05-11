@@ -7,7 +7,7 @@ virtual reality telepresence robot. The Wii Balance Board was compared against
 joysticks,  which  were  chosen  as  they  are  one  of  the  most  common  locomotion 
 control methods in virtual reality.
 
-The project used paid asset called WiiBuddy (https://assetstore.unity.com/packages/tools/input-management/wiibuddy-4929)
+The project used paid asset called WiiBuddy (https://assetstore.unity.com/packages/tools/input-management/wiibuddy-4929).
 Because it is paid we can not include it in the project files.
 To get this project working you will have to buy the asset and install it into the project folder.
 
