@@ -43,12 +43,12 @@ C:\Users\*USER*\AppData\LocalLow\DefaultCompany\Balance Board\
 Fixing the tracking files:  
 We found a bug that messed up the control switches in the tracking files. To fix this we made small script.  
 Open scene: Scenes/FinalScenes/FixFiles  
-From System-object set the "From path" and "To path" on the "Tracker Fixer"-script.
-  "From path" is place where the tracking files are.  
-  "To path" is place where fixed files will be saved into.  
+From System-object set the "From path" and "To path" on the "Tracker Fixer"-script.  
+&nbsp;&nbsp;"From path" is place where the tracking files are.  
+&nbsp;&nbsp;"To path" is place where fixed files will be saved into.  
 From same object change the "Path" and "Output" of the "Output Data"-script  
-  Path should be the same as "To Path" of the fixer-script  .
-  Output is csv file where you want to save the data from all the track files.
+&nbsp;&nbsp;Path should be the same as "To Path" of the fixer-script.  
+&nbsp;&nbsp;Output is csv file where you want to save the data from all the track files.
 
 Viewing the tracker files:  
 Open scene: Scenes/CampusVisualizer  
