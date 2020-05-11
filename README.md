@@ -13,8 +13,8 @@ To get this project working you will have to buy the asset and install it into t
 
 You will need a VR headset and controllers that works with SteamVR. You might have to change the controls from steam menu.
 
-How to install and use:
-Download the files and open the project in Unity 2019.12.15f1 or newer.
+How to install and use:  
+Download the files and open the project in Unity 2019.12.15f1 or newer.  
 Install the WiiBuddy asset from the asset store.
 
 How to connect a Wii board to computer:  
